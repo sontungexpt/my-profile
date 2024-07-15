@@ -55,7 +55,7 @@ a:hover {
 }
 
 .container {
-  width: 75%;
+  width: 85%;
   padding-top: 40px;
   margin: auto auto;
 }
@@ -66,8 +66,8 @@ a:hover {
 }
 
 .profile .left {
-  width: 28%;
-  margin-right: 20px;
+  width: 30%;
+  margin-right: 30px;
 }
 
 .avatar-wrapper {
@@ -153,15 +153,23 @@ a:hover {
   margin-bottom: 30px;
 }
 
-table {
+.table {
   font-size: 2rem;
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
 }
 
-table td,
-table th {
+.table a {
+  color: var(--blue);
+}
+
+.table a:hover {
+  color: var(--yellow);
+}
+
+.table td,
+.table th {
   word-wrap: break-word;
   border: 1px solid var(--gray);
   padding: 4px;
