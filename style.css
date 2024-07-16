@@ -139,20 +139,6 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.technology {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 10px;
-}
-
-.technology img {
-  width: 50px;
-  height: 50px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
 .table {
   font-size: 2rem;
   width: 100%;
@@ -173,4 +159,70 @@ a:hover {
   word-wrap: break-word;
   border: 1px solid var(--gray);
   padding: 4px;
+}
+
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 10px;
+  gap: 20px;
+}
+.tech-item {
+  display: flex;
+  align-items: center;
+  flex-basis: 20%;
+  gap: 10px;
+}
+.tech-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.education {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.education strong {
+  color: #e3e1e1;
+  font-weight: bold;
+}
+
+.education-detail {
+  line-height: 1.6;
+}
+
+.experience {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.experience ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+.experience li {
+  margin-bottom: 10px;
+}
+.experience strong {
+  color: #e3e1e1;
+  font-weight: bold;
+}
+
+.certification {
+  margin-top: 10px;
+}
+
+.certification li {
+  margin-bottom: 20px;
+}
+
+.certification .cert-title {
+  font-weight: bold;
+}
+
+.certification .cert-description {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
