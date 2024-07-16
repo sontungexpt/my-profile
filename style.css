@@ -140,7 +140,7 @@ a:hover {
 }
 
 .table {
-  font-size: 2rem;
+  font-size: 1.6rem;
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
@@ -148,6 +148,8 @@ a:hover {
 
 .table a {
   color: var(--blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .table a:hover {
@@ -156,9 +158,22 @@ a:hover {
 
 .table td,
 .table th {
-  word-wrap: break-word;
   border: 1px solid var(--gray);
-  padding: 4px;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: var(--light-gray);
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--lighter-gray);
+}
+
+.table tbody tr:hover {
+  background-color: var(--light-blue);
 }
 
 .technology {
